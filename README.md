@@ -44,3 +44,7 @@ The primary intended users of the model are researchers and hobbyists in natural
 
 ## Evaluation dataset
 A preliminary evaluation of the model quality is conducted by creating a set of 80 diverse questions and utilizing GPT-4 to judge the model outputs. See https://vicuna.lmsys.org/ for more details.
+
+## Major updates of weights v1.1
+Refactor the tokenization and separator. In Vicuna v1.1, the separator has been changed from ### to the EOS token </s>. This change makes it easier to determine the generation stop criteria and enables better compatibility with other libraries.
+Fix the supervised fine-tuning loss computation for better model quality.
