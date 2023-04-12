@@ -6,7 +6,6 @@ inference: false
 **NOTE: This "delta model" cannot be used directly.**  
 Users have to apply it on top of the original LLaMA weights to get actual Vicuna weights.  
 See https://github.com/lm-sys/FastChat#vicuna-weights for instructions.
-
 <br>
 <br>
 
